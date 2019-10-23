@@ -2,104 +2,37 @@
 <html>
 
 <head>
-  <title>Sample HTML Demonstration Page</title>
-  <style>
-    doc {
-  background: green;
-  height: 960px;
-  width: 480px;
-}
-
-.container {
-  color: purple;
-  margin: 0;
-}
-
-  div {
-    color: red;
-    width: 100px;
-    height: 42px;
-  }
-
-newsline {
-  font-size: 42px;
-  font-style: initial;
-  font-weight: 400;
-}
-
-wrapper {
-  width: 60%;
-  height: 100vh;
-  background: grey;
-}
-
-.head {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 25px;
-}
-
-.head a,
-.head {
-  margin: 0;
-  padding: 0;
-}
-
-second_container {
-  background: pink;
-  height: 150px;
-}
-
-.container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-textbox {
-  height: 100px;
-  width: 350px;
-  margin-bottom: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
-
-.green {
-  background: red;
-  cursor: pointer;
-}
-
-.second {
-  background: lightblue;
-}
-
+  <title>INST377</title>
+  <link rel="stylesheet" type = "text/css" href="lab_3_bad_css.css">
+  <style type= "text/css">
+    .wrapper{width:960px; margin: auto; background-color: grey;}
+    body {margin:0; padding: 0}
   </style>
-</head>
-
+ 
 <body>
   <div class="wrapper">
     <div class="head" id="start">
-      make me a headline
+      <center>
+      <h1>Sample Header</h1>
+      <a href="null" > anchor tag to nowhere </a>
+      </center>
     </div>
     <div class="second_container">
       <div class="interior">
-      hello
+      <p>hello</p>
     </div>
     </div>
     <div class="container">
+      <div class="column">
       <div>
-        First
+        <p> click me I'm great</p> 
       </div>
       <div>
-        Second
+        <div class="column">
       </div>
+        
       <div class="second textbox">
-        <p>
-          Third
-        </p>
+        <p>world#2</p>
       </div>
     </div>
   </div>
